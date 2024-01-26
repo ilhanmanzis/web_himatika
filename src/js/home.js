@@ -1,5 +1,5 @@
 
-let width = window.innerWidth;
+
 
 
 const nav = document.querySelector('nav ul');
@@ -25,8 +25,8 @@ const mobile_dropdown_content = document.getElementById('dropdown-content');
 
 
 profile.addEventListener('click', ()=>{
-        
-    if(width<=576){
+      let width = window.innerWidth;  
+    if(width<=800){
         mobile_dropdown_content.classList.toggle('dropdown-content')  
         mobile_dropdown_content.classList.toggle('mobile-dropdown-content')
         profile.classList.toggle('mobile_dropdown')
