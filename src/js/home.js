@@ -26,7 +26,7 @@ const mobile_dropdown_content = document.getElementById('dropdown-content');
 
 profile.addEventListener('click', ()=>{
         
-    if(width<=576){
+    if(width<=896){
         mobile_dropdown_content.classList.toggle('dropdown-content')  
         mobile_dropdown_content.classList.toggle('mobile-dropdown-content')
         profile.classList.toggle('mobile_dropdown')
